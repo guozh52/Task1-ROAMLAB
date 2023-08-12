@@ -3,7 +3,10 @@ The repository contains a ROS2 framework for a simple implementation of a publis
 
 ## How To
 OS: Ubuntu 22.04
+
 Install ``ros-iron-destop``. See https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html
+
+
 First, move to the workspace
 ```
 cd Task1-ROAMLAB/P1_ROAM_ws
