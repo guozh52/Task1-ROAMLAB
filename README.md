@@ -3,5 +3,26 @@ The repository contains a ROS2 framework for a simple implementation of a publis
 
 First, move to the workspace
 ```
-cd Task-ROAMLAB/P1_ROAM_ws
+cd Task1-ROAMLAB/P1_ROAM_ws
+```
+In the workspace, build the package
+```
+colcon build
+```
+Source the setup file
+```
+source install/setup.bash
+```
+Run the talker node
+```
+ros2 run message_pub_sub talker
+```
+Open a new terminal, and then move to the same workspace, and source the setup file
+```
+cd Task1-ROAMLAB/P1_ROAM_ws
+. install/setup.bash
+```
+Run the listener node
+```
+ros2 run message_pub_sub listener
 ```
