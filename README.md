@@ -1,6 +1,9 @@
 # Task1-ROAMLAB
 The repository contains a ROS2 framework for a simple implementation of a publisher and subscriber. The publisher publishes an 8-channel EMG signal, and the subscriber receives the 20 most recent signals from this topic, calculating the average value for each channel.
 
+## How To
+os: Ubuntu 22.04
+
 First, move to the workspace
 ```
 cd Task1-ROAMLAB/P1_ROAM_ws
